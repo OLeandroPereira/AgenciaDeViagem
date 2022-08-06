@@ -1,0 +1,264 @@
+body{
+    background-color: rgb(231, 238, 28);
+    color: #fff;
+    min-height: 100vh;
+    
+}
+
+header{
+    
+    background: linear-gradient(187deg, rgb(4, 15, 98) 52.08%, rgb(245, 252, 245) 100%);
+}
+
+@media (min-width: 320px) and (max-width:450px){
+    header{
+        background: linear-gradient(187deg, rgb(4, 15, 98) 52.08%, rgb(245, 252, 245) 100%);
+        width: 375px;
+    } 
+}
+
+img{
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-top: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+    img{
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-top: 5px;
+        height: 70px;
+        width: 60px;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 1470px;
+    height: 200px;
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+    nav{
+        width: 380px;
+        height: 100px;
+    }
+}    
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6rem;
+    margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.7rem;
+        margin: 0;
+        width: 70px;
+        text-align: center;
+        
+        
+    }
+}
+
+ul{
+    color: rgb(239, 202, 13);
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+    ul{
+        color: rgb(239, 202, 13);
+        display: flex;
+        list-style: none;
+        gap: 2px;
+        margin: 0;
+        padding-right: 10px;
+        font-family: arial;
+        font-size: 1.2rem;
+    }
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 700ms ease-in-out;
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+    a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        transition: all 700ms ease-in-out;
+        font-size: 0.5rem;
+       
+        
+    } 
+}
+
+a:hover{
+    color: #f0c909;
+    
+}
+
+main{
+    display: -webkit-box;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    background-color: #ecee77;
+    gap: 10px;
+    background: linear-gradient(180deg, rgba(252, 252, 254, 0.404) 42.08%, rgb(245, 252, 245) 100%)
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+    main{
+        height: 800px;
+        background-color: #ecee77;
+        gap: 10px;
+        background: linear-gradient(180deg, rgba(252, 252, 254, 0.404) 42.08%, rgb(245, 252, 245) 100%)
+    }
+}
+
+section{
+    font-size: 1.2rem;
+    font-family: Arial;
+    color:#024d0a;
+    padding-left: 40px;
+
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+
+    section{
+        font-size: 1.2rem;
+        font-family: Arial;
+        color:#024d0a;
+        height: 330px;
+        float: left;
+    }
+}
+
+#logo{
+    max-width: 100%;
+    height: 300px;
+    width: 450px;
+    margin: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+    #logo{
+        
+        height: 200px;
+        width: 350px;
+        margin: 10px;
+    }
+}
+
+.historia{
+    width: 400px;
+    height: 280px;
+    box-shadow: 0 0 20px #aaa;
+    margin: 0px;
+    margin-top: 20px;
+    transition: height 1s;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+    .historia{
+        width: 270px;
+        height: 280px;
+        box-shadow: 0 0 20px #aaa;
+        margin: 0px;
+        margin-top: 20px;
+        transition: height 3s;
+        text-align: center;
+        font-size: 1.2rem;
+        border: #02184d;
+    }
+}
+
+footer{
+    font-size: 1.2rem;
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+    height: 220px;
+    box-shadow: #f00909;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+    footer{
+        font-size: 1.2rem;
+        font-family: Arial;
+        background-color: rgb(243, 243, 225);
+        height: 120px;
+        box-shadow: #f00909;
+        color: #02184d;
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.definido{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+    .definido{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        height: 250px;
+        font-size: 0.6rem;
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 450px){
+    h2{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
