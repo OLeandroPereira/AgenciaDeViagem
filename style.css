@@ -2,6 +2,8 @@ body{
     background-color: rgb(231, 238, 28);
     color: #fff;
     min-height: 100vh;
+    max-width: 100vw;
+    margin: 0;
     
 }
 
@@ -10,7 +12,7 @@ header{
     background: linear-gradient(187deg, rgb(4, 15, 98) 52.08%, rgb(245, 252, 245) 100%);
 }
 
-@media (min-width: 320px) and (max-width:450px){
+@media (min-width: 320px) and (max-width:400px){
     header{
         background: linear-gradient(187deg, rgb(4, 15, 98) 52.08%, rgb(245, 252, 245) 100%);
         width: 375px;
@@ -18,12 +20,12 @@ header{
 }
 
 img{
-    margin-left: 30px;
+    margin-left: 87px;
     margin-top: 5px;
     margin-top: 5px;
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 400px){
     img{
         margin-left: 5px;
         margin-top: 5px;
@@ -38,11 +40,11 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-    width: 1470px;
+    width: 1820px;
     height: 200px;
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 400px){
     nav{
         width: 380px;
         height: 100px;
@@ -55,7 +57,7 @@ h1{
     margin: 0;
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 400px){
     h1{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 0.7rem;
@@ -76,7 +78,7 @@ ul{
     font-size: 1.2rem;
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 400px){
     ul{
         color: rgb(239, 202, 13);
         display: flex;
@@ -95,7 +97,7 @@ a{
     transition: all 700ms ease-in-out;
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 400px){
     a{
         color: rgb(255, 255, 255);
         text-decoration: none;
@@ -112,21 +114,23 @@ a:hover{
 }
 
 main{
-    display: -webkit-box;
-    justify-content: space-between;
+    padding-left: 70px;
+    display: flex;
+    gap: 10rem;
     align-items: center;
     height: 350px;
     background-color: #ecee77;
-    gap: 10px;
+    
     background: linear-gradient(180deg, rgba(252, 252, 254, 0.404) 42.08%, rgb(245, 252, 245) 100%)
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 400px){
     main{
         height: 800px;
         background-color: #ecee77;
         gap: 10px;
-        background: linear-gradient(180deg, rgba(252, 252, 254, 0.404) 42.08%, rgb(245, 252, 245) 100%)
+        background: linear-gradient(180deg, rgba(252, 252, 254, 0.404) 42.08%, rgb(245, 252, 245) 100%);
+        display: contents;
     }
 }
 
@@ -138,7 +142,7 @@ section{
 
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 120px) and (max-width: 400px){
 
     section{
         font-size: 1.2rem;
@@ -156,7 +160,7 @@ section{
     margin: 20px;
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 400px){
     #logo{
         
         height: 200px;
@@ -178,7 +182,7 @@ section{
     padding: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 400px){
     .historia{
         width: 270px;
         height: 280px;
@@ -206,12 +210,12 @@ footer{
     
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 400px){
     footer{
         font-size: 1.2rem;
         font-family: Arial;
         background-color: rgb(243, 243, 225);
-        height: 120px;
+        height: 80px;
         box-shadow: #f00909;
         color: #02184d;
         text-align: center;
@@ -230,7 +234,7 @@ footer{
     box-sizing: border-box;
 }
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 400px){
     .definido{
         width: 100%;
         display: flex;
@@ -238,14 +242,16 @@ footer{
         padding-right: 10px;
         padding-left: 10px;
         box-sizing: border-box;
-        height: 250px;
+        height: 145px;
         font-size: 0.6rem;
+        gap: 10px;
+        align-items: center;
     }
 }
 
 
 
-@media (min-width: 320px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 400px){
     h2{
         font-size: 0.8rem;
     }
